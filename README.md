@@ -1,6 +1,6 @@
 # 0.1 how to start with:
 There are 3 options to control lights via this project:
-1. The ESP32 will host a local webserver/webpage, which allows to control the lights via your brwoser.
+1. The ESP32 will host a local webserver/webpage, which allows to control the lights via your browser.
 2. A python-Bot for Discord will read commands, which were send to it via private chats and groups, and will try to send commands to the ESP32 via http.
 3. A python-Bot for Telegram, which does the same as the Discord-Bot.
 
