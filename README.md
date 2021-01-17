@@ -6,7 +6,7 @@ There are 3 options to control lights via this project:
 
 # 0.2 Hardware
 I use 3 PNP Transistors to control a 12V LED-Stripe via the ESP32. Connect the transistors to the ESP-ports and to the LED-stripe cables.
-Make shure that your ESP32 can power the transistors. 3 1ampere could not be powered, if the ESP32 has only e.g. 5V 2A
+Make shure that your ESP32 can power the transistors. 3 x 1ampere transistors could not be powered, if the ESP32 has only e.g. 5V 2A.
 
 
 # 1. Webinterface on the ESP32
