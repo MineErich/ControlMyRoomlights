@@ -144,7 +144,7 @@ void loop() {
             } else if (header.indexOf("GET /bl") >= 0) { //blue
               Serial.println("mState = blue");
               mState = "blue";
-              realOutput(0, 255, 0);
+              realOutput(0, 0, 255);
               /********************************************************************/
             } else if (header.indexOf("GET /ye") >= 0) { //yellow
               Serial.println("mState = yellow");
